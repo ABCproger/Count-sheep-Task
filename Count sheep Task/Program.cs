@@ -13,6 +13,8 @@ namespace SheepTask
         static void Main(string[] args)
         {
             Console.WriteLine("Enter a number of sheeps");
+            int n = int.Parse(Console.ReadLine());
+            string result = CountSheep(n);
     
         }
     }
